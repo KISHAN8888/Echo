@@ -12,10 +12,10 @@ from langchain.llms.google_palm import GooglePalm
 
 
 # Configure API keys
-palm.configure(api_key='AIzaSyAgLq3ekvXz5Z5S-gklC3B8ZmOViAAXB9I')
-client = pymongo.MongoClient("mongodb+srv://userx:usery@emoai2.yxn6itg.mongodb.net/")
-hf_token = "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"
-embedding_url = "https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-MiniLM-L6-v2"
+palm.configure(api_key='xxxxxxxxxxxx') #your api key
+client = pymongo.MongoClient("XXXXXXXXXXXXXXXXXXXXXX") # your mongodb uri
+hf_token = "XXXXXXXXXXXXXXXX" # hugging face api token
+embedding_url = "https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-MiniLM-L6-v2" #embedding uri
 
 db = client["tab"]
 collection = db["summaries"]
