@@ -1,4 +1,4 @@
-# Hea
+# Echo
 An approach towards second brain
 
 
